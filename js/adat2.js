@@ -1,17 +1,16 @@
-const nevezetessegekTomb=[
-    {
-        "nev":"Kínai Nagy Fal",
-        "leiras":"A világ egyik legismertebb építménye, több ezer kilométeren át húzódik. Eredetileg védelmi célból épült az ókori Kínában, és ma az egyik legnépszerűbb turisztikai látványosság.",
-        "kep":"nevezetesseg1.jpg"
+const nevezetessegekTomb = [{
+        "nev": "Allianz Arena",
+        "leiras": "Az Allianz Arena egy labdarúgóstadion München északi részen, a Bajnokok Ligája mérkőzésein a stadion neve München Arena. Az Allianz Arenában a müncheni csapatok, a TSV 1860 München és az FC Bayern München a 2005/2006-os szezontól játszanak.",
+        "kep": "allianz-arena-00.webp"
     },
     {
-        "nev":"Tiltott város (Peking)",
-        "leiras":"Az egykori császári palota több mint 500 éven át szolgált a Ming és Qing dinasztiák központjaként. Több száz épületből álló hatalmas komplexum.",
-        "kep":"nevezetesseg2.jpg"
+        "nev": "Olympic Stadium",
+        "leiras": "Az Olympiastadion stadion Berlinben, melyet az 1936-os nyári olimpiára építettek. Az stadion ma a Hertha BSC labdarúgóklub otthona. Az 1974-es és a 2006-os labdarúgó-világbajnokság egyik helyszíne.",
+        "kep": "Berlin.jpg"
     },
     {
-        "nev":"Agyaghadsereg (Xi’an)",
-        "leiras":"Több ezer életnagyságú katona szobra, amely Csin Si Huang-ti sírját őrzi. Minden figura egyedi arccal rendelkezik.",
-        "kep":"nevezetesseg3.jpg"
+        "nev": "Signal Iduna Park",
+        "leiras": "A Signal Iduna Park egy UEFA által öt csillaggal kitüntetett labdarúgóstadion a németországi Dortmundban. A Borussia Dortmund otthonául szolgáló létesítmény az ország legnagyobb kizárólag a labdarúgást szolgáló építménye.",
+        "kep": "bvb09.jpg"
     },
 ]
