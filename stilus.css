@@ -2,14 +2,17 @@
     font-family: "Sen", sans-serif;
     font-weight: 700;
     font-size: 200%;
-  }
-.kep{
+}
+
+.kep {
     height: 300px;
 }
-.leirasSzoveg{
+
+.leirasSzoveg {
     text-align: justify;
 }
-.kartya{
+
+.kartya {
     border: 1px solid rgb(255, 0, 51);
     box-shadow: 3px 3px;
     border-radius: 3px;
@@ -17,37 +20,39 @@
     padding: 10px;
     height: 500px;
 }
+
 #foDiv {
-    background-image: url("kepek/hatter.jpg");
+    background-image: url("");
     background-size: cover;
     background-position: center;
     padding: 20px;
     border-radius: 10px;
 }
+
 body {
-    background: 
-        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-        url("kepek/hatter2.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("kepek/hatter2.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
-h1{
+
+h1 {
     color: aliceblue;
 }
-a{
-    background-image: url(kepek/flag.jpg);
+
+a {
+    background-image: url(kepek/Gemany.svg);
     height: 100px;
     width: 200px;
     background-size: cover;
     font-size: 100px;
 }
-.betu{
+
+.betu {
     font-size: 30px;
     text-align: center;
     padding-top: 50px;
 }
-
 
 .etelekcim {
     position: relative;
@@ -63,9 +68,10 @@ a{
     left: 0px;
     width: 150px;
     height: 150px;
-    background-image: url("kepek/csirke.png");
+    background-image: url("");
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0.7;
-    z-index: -1; /* EZ A LÉNYEG: mögé kerül */
+    z-index: -1;
+    /* EZ A LÉNYEG: mögé kerül */
 }
