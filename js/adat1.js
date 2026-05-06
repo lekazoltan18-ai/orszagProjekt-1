@@ -13,4 +13,9 @@ const termeszetTomb = [{
         "leiras": "",
         "kep": "csapagy.jpg"
     },
+    {
+        "nev": "Német football",
+        "leiras": "",
+        "kep": "orszagProjekt/kepek/bundesliga.webp"
+    },
 ]

@@ -1,7 +1,7 @@
 document.getElementById("menu").innerHTML = `
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="https://hu.wikipedia.org/wiki/K%C3%ADna" target="_blank"></a>
+          <a class="navbar-brand" href="" target="_blank"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -14,7 +14,7 @@ document.getElementById("menu").innerHTML = `
                 <a class="nav-link" href="nevezetessegek.html">Stadionok</a>
               </li>
               <li class="nav-item betu">
-                <a class="nav-link" href="etelek.html">Autóipar</a>
+                <a class="nav-link" href="autoipar.html">Autóipar</a>
               </li>
             </ul>
           </div>
