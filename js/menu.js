@@ -1,4 +1,4 @@
-document.getElementById("menu").innerHTML=`
+document.getElementById("menu").innerHTML = `
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="https://hu.wikipedia.org/wiki/K%C3%ADna" target="_blank"></a>
@@ -11,10 +11,10 @@ document.getElementById("menu").innerHTML=`
                 <a class="nav-link" href="index.html">Nyitólap</a>
               </li>
               <li class="nav-item betu">
-                <a class="nav-link" href="nevezetessegek.html">Nevezetességek</a>
+                <a class="nav-link" href="nevezetessegek.html">Stadionok</a>
               </li>
               <li class="nav-item betu">
-                <a class="nav-link" href="etelek.html">Ételek</a>
+                <a class="nav-link" href="etelek.html">Autóipar</a>
               </li>
             </ul>
           </div>

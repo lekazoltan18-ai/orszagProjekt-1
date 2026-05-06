@@ -1,8 +1,6 @@
-
-
-let e=""
-for (const item of etelekTomb) {
-    e+=`
+let e = ""
+for (const item of autokTomb) {
+    e += `
         <div class="col-12 col-md-8 col-lg-8">
             <div class="kartya">
                 <p class="text-center cimecske">${item.nev}</p>
@@ -13,7 +11,7 @@ for (const item of etelekTomb) {
 
     `
 }
-document.getElementById("foDiv").innerHTML=e
+document.getElementById("foDiv").innerHTML = e
 
 for (const item of etelekTomb) {
     i += `
