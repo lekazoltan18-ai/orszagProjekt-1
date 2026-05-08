@@ -75,3 +75,21 @@ a {
     z-index: -1;
     /* EZ A LÉNYEG: mögé kerül */
 }
+
+.ugrasGomb {
+    display: inline-block;
+    font-size: 18px;
+    line-height: normal;
+    padding: 8px 18px;
+    margin-top: 10px;
+    background-color: #20252b;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.ugrasGomb:hover {
+    background-color: #e60028;
+    color: white;
+}
