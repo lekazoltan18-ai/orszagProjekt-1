@@ -10,6 +10,7 @@
 
 .leirasSzoveg {
     text-align: justify;
+    color: azure;
 }
 
 .kartya {
@@ -30,7 +31,7 @@
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("kepek/hatter2.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("kepek/Berlin.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -41,10 +42,10 @@ h1 {
 }
 
 a {
-    background-image: url(kepek/Gemany.svg);
+    background-image: url(kepek/logof.jpg);
     height: 100px;
     width: 200px;
-    background-size: cover;
+    background-size: contain;
     font-size: 100px;
 }
 
@@ -83,13 +84,13 @@ a {
     padding: 8px 18px;
     margin-top: 10px;
     background-color: #20252b;
-    color: white;
+    color: rgb(255, 0, 0);
     text-decoration: none;
     border-radius: 6px;
     font-weight: bold;
 }
 
 .ugrasGomb:hover {
-    background-color: #e60028;
-    color: white;
+    background-color: #fff200;
+    color: rgb(255, 247, 0);
 }

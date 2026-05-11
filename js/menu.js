@@ -16,6 +16,12 @@ document.getElementById("menu").innerHTML = `
               <li class="nav-item betu">
                 <a class="nav-link" href="autoipar.html">Autóipar</a>
               </li>
+              <li class="nav-item betu">
+                <a class="nav-link" href="autoipar.html">Német cégek Magyarországon</a>
+              </li>
+              <li class="nav-item betu">
+                <a class="nav-link" href="autoipar.html">Német football</a>
+              </li>
             </ul>
           </div>
         </div>
