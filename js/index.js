@@ -1,7 +1,5 @@
 let sz = "";
 
-let s = "";
-
 for (const item of termeszetTomb) {
     let link = "#";
 
@@ -10,9 +8,9 @@ for (const item of termeszetTomb) {
     } else if (item.nev == "Autóipar") {
         link = "autoipar.html";
     } else if (item.nev == "Német cégek Magyarországon") {
-        link = "#";
+        link = "cegek.html";
     } else if (item.nev == "Német football") {
-        link = "#";
+        link = "foci.html";
     }
 
     sz += `
