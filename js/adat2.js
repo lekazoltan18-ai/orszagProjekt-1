@@ -1,13 +1,14 @@
 const nevezetessegekTomb = [{
+        "nev": "Olympiastadion Berlin",
+        "leiras": "Az Olympiastadion Berlin Németország egyik legismertebb stadionja, amelyet az 1936-os nyári olimpiára építettek. Ma a Hertha BSC otthona, és több nagy nemzetközi mérkőzésnek is helyszínt adott.",
+        "kep": "olympiastadion.jpg"
+    },
+    {
         "nev": "Allianz Arena",
         "leiras": "Az Allianz Arena Münchenben található, és az FC Bayern München otthona. Különlegessége a modern, kívülről megvilágítható burkolata, amely különböző színekben tud világítani.",
         "kep": "allianz-arena-00.webp"
     },
-    {
-        "nev": "Olympiastadion Berlin",
-        "leiras": "Az Olympiastadion Berlin Németország egyik legismertebb stadionja, amelyet az 1936-os nyári olimpiára építettek. Ma a Hertha BSC otthona, és több nagy nemzetközi mérkőzésnek is helyszínt adott.",
-        "kep": "Berlin.jpg"
-    },
+
     {
         "nev": "Signal Iduna Park",
         "leiras": "A Signal Iduna Park Dortmundban található, és a Borussia Dortmund otthona. A stadion híres a hatalmas szurkolótáboráról és a déli lelátóról, amelyet gyakran „sárga falnak” neveznek.",
@@ -26,7 +27,7 @@ const nevezetessegekTomb = [{
     {
         "nev": "Deutsche Bank Park",
         "leiras": "A Deutsche Bank Park Frankfurtban található, és az Eintracht Frankfurt otthona. A stadion modern kialakítású, nagy befogadóképességű aréna, ahol futballmérkőzések és koncertek is vannak.",
-        "kep": "deutsche-bank-park.jpg"
+        "kep": "deutsche-bank-park.AVIF"
     },
     {
         "nev": "BayArena",

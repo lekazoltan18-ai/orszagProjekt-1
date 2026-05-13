@@ -6,26 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UEFA Euro 2024</title>
 
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap" rel="stylesheet">
-
-    <!-- Saját CSS -->
     <link rel="stylesheet" href="stilus.css">
 </head>
 
 <body class="euro-body">
 
     <div id="menu"></div>
-
-    <header></header>
 
     <main class="container mt-3 euro-oldal">
         <h1 class="etelekcim">UEFA Euro 2024</h1>
@@ -38,6 +27,13 @@
     <footer></footer>
 
     <script src="js/menu.js"></script>
+
+    <script>
+        document.querySelector(".nemet-logo").innerHTML = `
+          <img src="kepek/eblogo.png" alt="UEFA Euro 2024" class="euro-menu-logo">
+      `;
+    </script>
+
     <script src="js/adat6.js"></script>
     <script src="js/euro.js"></script>
 </body>

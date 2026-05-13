@@ -16,8 +16,8 @@ for (const item of termeszetTomb) {
     }
 
     sz += `
-        <div class="col-12 col-md-6 col-lg-6 mb-4">
-            <div class="kartya h-100">
+        <div class="col-12 col-md-6 col-lg-6 mb-4 ${item.nev == "UEFA Euro 2024" ? "mx-auto" : ""}">
+            <div class="kartya h-100 ${item.nev == "UEFA Euro 2024" ? "euro-index-kartya" : ""}">
                 <p class="text-center cimecske">${item.nev}</p>
 
                 <p class="text-center">

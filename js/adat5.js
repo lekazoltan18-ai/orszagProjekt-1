@@ -1,4 +1,9 @@
 const fociTomb = [{
+        "nev": "Bundesliga",
+        "leiras": "A Bundesliga a német labdarúgó-bajnokság első osztálya, amelyben az 1992/1993-as idény óta 18 csapat vesz részt. A Bundesliga elnevezést az osztrák labdarúgó-bajnokságra is használják, valamint a két országban számos sportágban a legmagasabb versenyszintet jelenti. ",
+        "kep": "bundesliga.webp"
+    },
+    {
         "nev": "FC Bayern München",
         "leiras": "Az FC Bayern München Németország legsikeresebb labdarúgóklubja. A bajor csapat rengeteg Bundesliga-címet nyert, és Európában is kiemelkedő eredményeket ért el a Bajnokok Ligájában.",
         "kep": "foci2.png"

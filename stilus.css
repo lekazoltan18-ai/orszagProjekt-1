@@ -252,7 +252,7 @@ h1 {
 /* EURO 2024 kártya */
 
 .euro-oldal .kartya {
-    background-color: rgba(255, 255, 255, 0.55);
+    background-color: rgba(25, 74, 249, 0.55);
     backdrop-filter: blur(6px);
     border: 2px solid rgba(255, 255, 255, 0.75);
     border-radius: 24px;
@@ -272,7 +272,7 @@ h1 {
     right: 18px;
     font-size: 22px;
     font-weight: bold;
-    color: rgba(0, 60, 140, 0.13);
+    color: rgb(255, 255, 255);
     letter-spacing: 2px;
 }
 
@@ -317,7 +317,7 @@ h1 {
 /* Leírás szöveg */
 
 .euro-oldal .leirasSzoveg {
-    color: #082032;
+    color: #ffffff;
     font-size: 18px;
     line-height: 1.7;
     text-align: justify;
@@ -381,15 +381,68 @@ h1 {
 
 /* Aktív Euro menüpont kiemelése */
 
-.euro-body .nemet-link[href="euro.html"] {
-    background-color: white;
-    color: #003566 !important;
-    border: 2px solid #00b4d8;
+.euro-body .nemet-logo {
+    background: none !important;
+    padding: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.euro-menu-logo {
+    height: 70px;
+    width: auto;
+    object-fit: contain;
+    display: block;
 }
 
 
-/* Mobil gomb Euro oldalon */
+/* Euro oldalon bal felső UEFA Euro 2024 logó */
 
-.euro-body .nemet-toggler {
-    background-color: rgba(255, 255, 255, 0.9);
+.euro-body .nemet-logo {
+    background-color: rgba(0, 20, 80, 0.65);
+    padding: 6px 14px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.euro-menu-logo {
+    height: 58px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+}
+
+
+/* Főoldali UEFA Euro 2024 kártya */
+
+.euro-index-kartya {
+    background-color: rgba(0, 110, 178, 0.88) !important;
+    border: 2px solid #0409ff !important;
+    transition: 0.3s;
+}
+
+.euro-index-kartya:hover {
+    background-color: rgba(0, 26, 255, 0.95) !important;
+}
+
+
+/* Főoldali UEFA Euro 2024 kártya gombja */
+
+.euro-index-kartya .ugrasGomb {
+    background: linear-gradient(90deg, #0057ff, #00b4d8) !important;
+    color: white !important;
+    border: 2px solid white !important;
+    border-radius: 14px;
+    padding: 10px 22px;
+    font-weight: bold;
+    box-shadow: 0 5px 14px rgba(0, 50, 150, 0.45);
+    transition: 0.3s;
+}
+
+.euro-index-kartya .ugrasGomb:hover {
+    background: linear-gradient(90deg, #003566, #0077b6) !important;
+    color: #ffffff !important;
+    transform: scale(1.07);
 }
