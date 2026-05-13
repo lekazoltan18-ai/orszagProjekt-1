@@ -1,11 +1,11 @@
 const termeszetTomb = [{
         "nev": "Stadionok",
-        "leiras": "Németország a világ egyik legfejlettebb stadioninfrastruktúrájával rendelkezik, ahol a modern, többfunkciós arénák mellett számos történelmi helyszín is megtalálható. ",
+        "leiras": "Németország a világ egyik legfejlettebb stadioninfrastruktúrájával rendelkezik, ahol a modern, többfunkciós arénák mellett számos történelmi helyszín is megtalálható.",
         "kep": "NOS.jpg"
     },
     {
         "nev": "Autóipar",
-        "leiras": "A német autóipar 2026-ban az elmúlt másfél évtized legsúlyosabb válságát éli, amelyet a csökkenő profit, az elektromos átállás nehézségei és a kínai versenytársak előretörése jellemez. ",
+        "leiras": "A német autóipar 2026-ban az elmúlt másfél évtized legsúlyosabb válságát éli, amelyet a csökkenő profit, az elektromos átállás nehézségei és a kínai versenytársak előretörése jellemez.",
         "kep": "NMA.jpg"
     },
     {
@@ -18,4 +18,9 @@ const termeszetTomb = [{
         "leiras": "A Bundesliga a német labdarúgó-bajnokság első osztálya, amelyben az 1992/1993-as idény óta 18 csapat vesz részt.",
         "kep": "bundesliga.webp"
     },
-]
+    {
+        "nev": "UEFA Euro 2024",
+        "leiras": "Az UEFA Euro 2024 a labdarúgó Európa-bajnokság 17. kiadása volt, amelyet Németország rendezett. A torna Európa legjobb válogatottjait hozta össze, és több német város stadionja adott otthont a mérkőzéseknek.",
+        "kep": "EB2024.jpg"
+    }
+];

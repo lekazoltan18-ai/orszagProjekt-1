@@ -210,3 +210,186 @@ h1 {
 .nemet-logo:hover {
     color: #ffce00 !important;
 }
+
+
+/* EURO 2024 teljes oldal háttér */
+
+.euro-body {
+    background-image: linear-gradient( rgba(0, 20, 80, 0.25), rgba(0, 20, 80, 0.25)), url("kepek/EB2024.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+
+/* EURO 2024 tartalomdoboz */
+
+.euro-oldal {
+    background-color: rgba(0, 35, 102, 0.35);
+    border-radius: 22px;
+    padding: 30px;
+    margin-top: 30px !important;
+    min-height: 700px;
+    box-shadow: 0 10px 30px rgba(0, 20, 60, 0.45);
+}
+
+
+/* EURO 2024 főcím */
+
+.euro-oldal .etelekcim {
+    color: white;
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.75);
+    margin-bottom: 30px;
+}
+
+
+/* EURO 2024 kártya */
+
+.euro-oldal .kartya {
+    background-color: rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(6px);
+    border: 2px solid rgba(255, 255, 255, 0.75);
+    border-radius: 24px;
+    padding: 24px;
+    box-shadow: 0 10px 25px rgba(0, 40, 100, 0.35);
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* Kártya dekor felirat */
+
+.euro-oldal .kartya::after {
+    content: "EURO 2024";
+    position: absolute;
+    bottom: 12px;
+    right: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgba(0, 60, 140, 0.13);
+    letter-spacing: 2px;
+}
+
+
+/* Kártya címe */
+
+.euro-oldal .cimecske {
+    color: #003566;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+
+/* Cím alatti dekor csík */
+
+.euro-oldal .cimecske::after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 5px;
+    margin: 12px auto 0;
+    background: linear-gradient(90deg, #0057ff, #ffffff, #00c853);
+    border-radius: 999px;
+}
+
+
+/* EURO kép a kártyában */
+
+.euro-oldal .kep {
+    border-radius: 18px;
+    border: 3px solid #0077b6;
+    box-shadow: 0 6px 18px rgba(0, 50, 120, 0.35);
+    max-height: 360px;
+    object-fit: cover;
+}
+
+
+/* Leírás szöveg */
+
+.euro-oldal .leirasSzoveg {
+    color: #082032;
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: justify;
+    margin-top: 18px;
+}
+
+
+/* Mobil nézet */
+
+@media (max-width: 768px) {
+    .euro-oldal {
+        padding: 18px;
+        min-height: auto;
+    }
+    .euro-oldal .etelekcim {
+        font-size: 32px;
+    }
+    .euro-oldal .cimecske {
+        font-size: 24px;
+    }
+    .euro-oldal .leirasSzoveg {
+        font-size: 16px;
+        text-align: left;
+    }
+}
+
+
+/* Csak az Euro 2024 oldalon legyen kékes a menü */
+
+.euro-body .nemet-menu {
+    background: linear-gradient( 90deg, #003566 0%, #0057ff 45%, #00b4d8 100%) !important;
+    box-shadow: 0 4px 16px rgba(0, 40, 120, 0.55);
+}
+
+
+/* Euro oldalon a bal felső logó is kékes legyen */
+
+.euro-body .nemet-logo {
+    background-color: rgba(0, 30, 90, 0.75);
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.55);
+}
+
+
+/* Euro oldalon a menüpontok */
+
+.euro-body .nemet-link {
+    background-color: rgba(0, 30, 90, 0.55);
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+
+/* Hover Euro oldalon */
+
+.euro-body .nemet-link:hover {
+    background-color: white;
+    color: #003566 !important;
+}
+
+
+/* Aktív Euro menüpont kiemelése */
+
+.euro-body .nemet-link[href="euro.html"] {
+    background-color: white;
+    color: #003566 !important;
+    border: 2px solid #00b4d8;
+}
+
+
+/* Mobil gomb Euro oldalon */
+
+.euro-body .nemet-toggler {
+    background-color: rgba(255, 255, 255, 0.9);
+}
